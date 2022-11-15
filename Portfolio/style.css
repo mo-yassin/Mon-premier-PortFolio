@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap%27');
+p {
+    font-family: Lato;
+    color: gray;
+}
+h1, h2, h3 {
+    font-family: Oswald;
+}
+h1 , header p , .submit {
+    color: white;
+}
+body {
+    background: linear-gradient(to bottom, #3aa5a4,#7ae5e4);
+}
+header {
+    text-align: center;
+    padding: 4em;
+}
+.aboutme , .projects , .work , .education , .languages , .social , .contacts {
+    background-color: white;
+    margin: 3em;
+    padding: 2em;
+    overflow: hidden;
+    border-radius: 0.1em;
+}
+.aboutme img {
+    width: 11%;
+    float: left;
+}
+.aboutme p {
+    margin-left: 11em;
+}
+.project {
+    float: left;
+    width: 33.33%;
+}
+.column , .language , .icons {
+    float: left;
+    width: 33.33%;
+}
+.bold {
+    font-weight: bold;
+    color: black;
+}
+.social img {
+    width: 2em;
+    height: 2em;
+}
+.icons {
+    position: relative;
+}
+.inline {
+    position: absolute;
+    padding-left: 0.5em;
+    top: 9px
+}
+.background-image {
+    background-image: url(image/david.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    height: 60vh;
+    opacity: 18%;
+    z-index: -4;
+}
+.work-row {
+    margin-bottom: 3em;
+}
+.input {
+    background-color: rgb(237, 235, 235);
+    border: 0;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    width: 100%;
+    height: 2em;
+}
+.contacts textarea {
+    height: 8em;
+}
+.submit {
+    background-color: black;
+    border-radius: 1.3em;
+    height: 2.5em;
+}
+footer p{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -17px;
+}
